@@ -1,0 +1,17 @@
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root.Mui-selected,
+.css-vwef7a-MuiPickersToolbar-content,
+.css-15jcv2p-MuiPickersToolbar-content,
+.css-jgls56-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: var(--color3) !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root,
+.css-1hbyad5-MuiTypography-root {
+  display: none !important;
+}
+.MuiStack-root.css-11a8txn-MuiStack-root {
+  width: 100%;
+}
+.css-15jcv2p-MuiPickersToolbar-content {
+  justify-content: center !important;
+}
