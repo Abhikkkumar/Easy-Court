@@ -4,6 +4,10 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 3px 1px 8px 0 rgba(19, 164, 159, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--color4);
 }
 .header:hover {
   box-shadow: 3px 1px 8px 0 rgba(19, 164, 159, 0.4);
@@ -19,6 +23,9 @@
   font-size: 1.4rem;
   font-weight: 500;
   color: var(--color2);
+}
+.h-list> a:hover{
+  color: var(--color1);
 }
 .h-list > input {
   height: 2rem;
@@ -44,9 +51,7 @@
   align-items: center;
   cursor: pointer;
 }
-.logo-container > p {
-  font-size: 1.4rem;
-}
+
 .color1 {
   color: var(--color1);
 }
@@ -56,8 +61,19 @@
   font-weight: 600;
 }
 .profile {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   cursor: pointer;
+}
+@media (min-width: 769px) {
+  .h-bar {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .h-list {
+    display: none;
+  }
 }

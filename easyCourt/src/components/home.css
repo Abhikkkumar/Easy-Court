@@ -1,25 +1,15 @@
-.home {
-  padding: 0.7rem 0.5rem;
-}
-.sub-home-1 {
-  min-height: 5rem;
-  text-align: center;
-  padding-top: 1rem;
-}
-.sub-home-1 > h1 {
-  color: var(--color3);
-}
-.sub-home-1 > p {
-  color: var(--color1);
-}
+
+
+
 .sub-home-2 {
   display: flex;
-  align-items: flex-start;
-  margin-top: 0.9rem;
+  align-items: stretch;
+  flex-wrap: wrap-reverse;
+  padding-top: 1.9rem;
 }
 .sh2-1 {
   width: 60%;
-  padding-top: 1.5rem;
+  
 }
 .my-calendar {
   width: 35%;
@@ -37,6 +27,6 @@
   cursor: pointer;
 }
 .btn1:hover {
-  background-color: rgb(35, 94, 92);
+  background-color: #1f8a86;
   box-shadow: 3px 1px 5px 0 rgba(19, 164, 159, 0.8);
 }

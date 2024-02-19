@@ -3,10 +3,16 @@
   --color2: #00365c;
   --color3: #ffad01;
   --light-color1: #e9f5f9;
+  --color4: #fff;
+
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.newCase {
+  background-image: url("https://wallpapers.com/images/hd/light-color-background-38wfcy94v20z8og4.jpg");
+  background-size: cover;
 }
 
 /* #root {

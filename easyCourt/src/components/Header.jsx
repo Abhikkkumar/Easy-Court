@@ -22,11 +22,12 @@ export default function Header() {
             // console.log("clicked");
           }}
         />
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/">Case List</NavLink>
-        <NavLink to="/">Register New Case</NavLink>
+        <NavLink to="/" className="text-[1rem]">Home</NavLink>
+        <NavLink to="/" className="text-[1rem] mx-[.4rem]">Case List</NavLink>
+        <NavLink to="/newcase" className="text-[1rem]">New Case</NavLink>
         <img className="profile" src={profile} alt="profile" />
       </div>
+      <i className="h-bar fa-solid fa-bars text-[2.2rem] cursor-pointer"></i>
     </div>
   );
 }
